@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Expense Tracker</title>
+        <meta charset="utf-8">
+        <meta name="description" content="This page allows you to record information about your
+        expenses.">
+        <meta name="keywords" content="Expense,money,tracker,poor,budget,rich">
+        <meta name="author" content="Ariel">
+        <link href="styles/normalize.css" rel="stylesheet" type="text/css">
+        <link href="styles/style.css" rel="stylesheet" type="text/css">
+        <script src="scripts/script.js"></script>
+    </head>
+    <body>
+        <div id="header">
+            <h1>Expense tracker</h1>
+            <h2>Add A New Item:</h2>
+            <p>Name:<input type="text" id="inputName"></p>
+            <p>Date:<input type="date" id="inputDate"> Amount:<input type="text" id="inputAmount"></p>
+            <div id="button">
+                <button onclick="addToTable()">Add Expense</button>
+                <button onclick="deleteRows('tabla')">Delete</button>
+            </div>
+        </div>
+        <table id="tabla">
+            <tr>
+                <th>Name</th>
+                <th>Date</th>
+                <th>Amount</th>
+                <th>Delete</th>
+            </tr>
+        </table>
+    </body>
+</html>

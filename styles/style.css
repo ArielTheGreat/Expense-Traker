@@ -1,0 +1,56 @@
+
+th{
+    border:1px solid black;
+    width: 15em;
+}
+h2{
+    color:green;
+    text-align: center;
+}
+table{
+    border-spacing: 0ch;
+}
+h1{
+    font-size: 5em;
+}
+h2{
+    font-size: 3em;
+}
+#header{
+    margin: auto;
+    width: 30%;
+}
+#inputName{
+    width: 31.5em;
+}
+#button{
+    text-align: center;
+}
+button{
+    background-color: green;
+    color:white;
+    border-radius: 10px;
+    padding: 0.5em;
+}
+#inputDate{
+    width: 14em;
+}
+#inputAmount{
+    width: 14em;
+}
+#tabla{
+    margin: auto;
+    margin-top: 3em;
+    font-size: 1.6em;
+}
+td{
+    background-color: silver;
+    text-align: center;
+}
+button:hover{
+    cursor: pointer;
+}
+.delete{
+    width: 25px;
+    height: 25px;
+}
